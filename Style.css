@@ -1,5 +1,12 @@
 .kropp {
-  background-image: linear-gradient(to bottom, darkblue, black);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(101, 189, 216),
+    rgb(0, 0, 0)
+  );
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -10,7 +17,7 @@ h1 {
   margin-right: 1%;
   color: whitesmoke;
   border: 3px solid white;
-  background-color: rgb(10, 4, 46);
+  background-color: rgb(101, 189, 216);
 }
 p {
   font-family: "Times New Roman", Times, serif;
@@ -19,6 +26,8 @@ p {
 }
 .fakta {
   color: whitesmoke;
+  margin-top: 8%;
+  margin-left: 3%;
 }
 .head {
   align-items: center;
@@ -28,19 +37,46 @@ p {
   width: 40px;
   border-radius: 20px;
 }
-img {
-  width: 350px;
-  height: 350px;
-  border-radius: 200px;
+.ME {
+  width: 450px;
+  height: 450px;
+  border-radius: 225px;
   border: 5px solid white;
-  float: none;
-  margin-left: 24%;
-  margin-top: 3%;
+  margin-left: 36%;
+  margin-top: 7%;
   object-fit: cover;
 }
-.sidenav {
+.meny {
   position: fixed;
-  left: 47%;
-  bottom: 20px;
-  transform: translate(-50%, -50%);
+  left: 37%;
+  bottom: 20%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.row {
+}
+
+.col {
+  flex: 50%;
+  padding: 10px;
+  height: 93vh;
+  vertical-align: auto;
+}
+.bilder {
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  border: 5px solid white;
+  float: none;
+  margin-left: 35%;
+  margin-top: 3%;
+  object-fit: cover;
+  margin-top: 4%;
+  margin-right: 3%;
+}
+
+.tillbaka {
+  float: left;
 }
