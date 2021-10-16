@@ -4,6 +4,7 @@
     rgb(101, 189, 216),
     rgb(0, 0, 0)
   );
+  -webkit-user-select: none;
   height: 100vh;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -27,7 +28,7 @@ p {
 .fakta {
   color: whitesmoke;
   margin-top: 8%;
-  margin-left: 3%;
+  padding-right: 3%;
 }
 .head {
   align-items: center;
@@ -42,28 +43,45 @@ p {
   height: 450px;
   border-radius: 225px;
   border: 5px solid white;
-  margin-left: 36%;
+  margin-left: 22%;
   margin-top: 7%;
   object-fit: cover;
 }
 .meny {
+  font-family: "Times New Roman", Times, serif;
+  vertical-align: auto;
   position: fixed;
-  left: 37%;
+  font-size: 40px;
+  left: 30%;
   bottom: 20%;
   color: white;
   text-decoration: none;
   text-align: center;
 }
-
-.row {
+.text {
+  text-decoration: none;
+  color: white;
+  clear: left;
+  height: 35px;
+  margin-top: 55px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  margin-left: 35px;
 }
-
+.row {
+  margin-left: 14%;
+}
 .col {
   flex: 50%;
   padding: 10px;
   height: 93vh;
   vertical-align: auto;
 }
+
+.left {
+  margin-right: 50%;
+}
+
 .bilder {
   width: 140px;
   height: 140px;
@@ -79,4 +97,19 @@ p {
 
 .tillbaka {
   float: left;
+}
+
+.bi {
+  font-size: 160px;
+  border-radius: 40px;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.col-1 {
+  margin-top: 5%;
+  height: 100vh;
+}
+.bi-envelope {
+  padding-right: 50%;
 }
